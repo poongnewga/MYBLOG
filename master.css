@@ -45,6 +45,7 @@ header {
   background-color: #cbcbcb;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
 }
 header > h1 {
   font-size: 100px;

@@ -20,6 +20,14 @@ nav {
   overflow: hidden;
   position: fixed;
 }
+nav a {
+ text-decoration: none;
+ color : white;
+}
+
+nav a:hover {
+  color: yellow;
+}
 
 nav h1 {
   float: left;

@@ -40,17 +40,23 @@ nav > ul li > div {
 }
 
 header {
-  padding-top: 80px;
+  padding-top: 0px;
   height: 680px;
   background-color: #cbcbcb;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
+  display: table;
 }
-header > h1 {
+#h_content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header h1 {
   font-size: 100px;
 }
-header > p {
+header p {
   font-size: 20px;
 }
 

@@ -1,8 +1,15 @@
+@font-face {
+    font-family: "배달의민족 도현";
+    src: url('fonts/BMDOHYEON.woff');
+    }
+
 * {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
+  font-family: "배달의민족 도현"
 }
+
 body {
   background-color: #EEEEEE;
 }
@@ -70,7 +77,7 @@ header p {
 
 section {
   height: 800px;
-  background-color: #898989;
+  background-color: #a5a5a5;
 }
 
 section article {
@@ -90,6 +97,7 @@ section article > p {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 18px;
+  color: #c9c020;
 }
 section article > p::first-letter {
   font-size: 30px;

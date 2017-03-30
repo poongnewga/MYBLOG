@@ -1,6 +1,6 @@
 @font-face {
     font-family: "배달의민족 도현";
-    src: url('fonts/BMDOHYEON.woff');
+    src: local(※), url('fonts/BMDOHYEON.woff');
     }
 
 * {
@@ -9,7 +9,6 @@
   padding: 0;
   font-family: "배달의민족 도현"
 }
-
 body {
   background-color: #EEEEEE;
 }
@@ -64,6 +63,7 @@ header {
   display: table;
 }
 #h_content {
+  width: 960px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -77,27 +77,35 @@ header p {
 
 section {
   height: 800px;
-  background-color: #a5a5a5;
+  background-color: #898989;
 }
 
 section article {
   float: left;
   width: 320px;
   padding-top: 20px;
-  /*
-  padding-left: 10px;
-  padding-right: 10px;*/
 }
-section article img {
-  display: block;
+section article div {
   width: 300px;
   height: 300px;
+  position: relative;
+}
+
+section article img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 section article > p {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-size: 18px;
-  color: #c9c020;
+  line-height: 30px;
+  color: #191829;
 }
 section article > p::first-letter {
   font-size: 30px;
@@ -110,4 +118,7 @@ footer {
   line-height: 60px;
   background-color: #343434;
   text-align: center;
+}
+footer:hover{
+  color: yellow;
 }
